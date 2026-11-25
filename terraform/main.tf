@@ -134,6 +134,7 @@ resource "aws_instance" "web" {
     http_tokens = "required"
   }
 }
+EOF
 
 resource "aws_s3_bucket" "public_bucket" {
   bucket = "my-public-test-bucket"
